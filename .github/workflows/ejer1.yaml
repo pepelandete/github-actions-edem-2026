@@ -2,7 +2,7 @@ name: Ejercicio 1
 on:
   workflow_dispatch:
 env:
-  GLOBAL_USER: "estudiante_edem"
+  GLOBAL_USER: "Pepe"
 
 jobs:  
   say-hello:
