@@ -1,0 +1,11 @@
+name: Ejercicio 2
+on:
+  workflow_dispatch:
+
+# Crear la contraseña?
+
+jobs:
+  create-password:
+    runs-on: ubuntu-latest
+    steps:
+    - run: login -pass ${{ secrets.DB_PASSWORD }}
