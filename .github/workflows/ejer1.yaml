@@ -1,0 +1,17 @@
+name: Ejercicio 1
+on:
+  workflow_dispatch:
+env:
+  GLOBAL_USER: "estudiante_edem"
+
+jobs:  
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+    - name: First Step
+      run: echo "Hola $GLOBAL_USER"
+  say-goodbye:
+    runs-on: ubuntu-latest
+    steps:
+    - name: First Step
+      run: echo "Adiós $GLOBAL_USER"
