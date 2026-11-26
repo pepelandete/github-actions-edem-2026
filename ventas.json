@@ -1,0 +1,6 @@
+{
+  "ventas": [
+    { "id": 1, "producto": "Portátil", "importe": 1200 },
+    { "id": 2, "producto": "Monitor", "importe": 300 }
+  ]
+}
